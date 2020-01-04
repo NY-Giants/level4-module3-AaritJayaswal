@@ -11,7 +11,7 @@ class ExceptionsTest {
 	//1. This is an example of how one might test that an exception is thrown.
 	//   It tests that an IndexOutOfBoundsException is thrown 
 	@Test
-	public void testIndexOOBException() {
+	            public void testIndexOOBException() {
 		int[] vars = {0, 1, 2, 3};
 			
 		try {
