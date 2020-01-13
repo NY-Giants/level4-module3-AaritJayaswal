@@ -8,4 +8,16 @@ public class ExceptionMethods {
 		return numerator/denominator;
 		
 	}
+	public String reverseString(String fillininput) {
+	if(fillininput.equals("")) {
+		throw new IllegalStateException();
+	}
+	String fillinoutput = "";
+		for(int i = fillininput.length()-1; i >= 0; i--) {
+			fillinoutput += fillininput.charAt(i);
+		}
+		return fillininput;
+		
+	}
+	
 }
