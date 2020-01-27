@@ -16,7 +16,7 @@ public class ExceptionMethods {
 		for(int i = fillininput.length()-1; i >= 0; i--) {
 			fillinoutput += fillininput.charAt(i);
 		}
-		return fillininput;
+		return fillinoutput;
 		
 	}
 	
